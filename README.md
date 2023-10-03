@@ -23,7 +23,7 @@ Basic Statistics uses the Apache Ant build system. **Make sure that you have [An
 #### Program features:
 * Displays a set of entered numbers.
 * Computes the mean of the set of numbers.
-* Computes the median of the set of.
+* Computes the median of the set of numbers.
 * Computes the mode of the set of numbers.
 
 ## Troubleshooting
@@ -37,7 +37,7 @@ If your system uses an outdated version of JUnit, you may encounter the followin
 Run `ant -lib lib/ <target>` to explicitly use JUnit4, which is provided in the *lib* directory. For example, run `ant -lib lib/ test` to run all Basic Statistics unit tests.
 
 #### Java JDK not installed or misconfigured
-If a Java JDK is not installed or properly configured on your system, you may encounter the following: 
+If a Java JDK is not installed or properly configured on your system, you may encounter the following error: 
 ```
 BUILD FAILED
 build.xml:17 Unable to find a javac compiler;
